@@ -29,8 +29,8 @@ Delete contents
 ## Users --> Authentication
 > Gemfile
 
-gem 'devise'
-gem 'simple_form'
+- gem 'devise'
+- gem 'simple_form'
 
 - `bundle`
 - stop server
@@ -58,3 +58,5 @@ gem 'simple_form'
 ## Rails commands
 - `rs` (normally `rails s` but in this vagrant environment it is an alias for `rails s -b 0.0.0.0`)
 - `bundle` (After editing Gemfile, this command needs to be run and the server needs to be restarted)
+- `rails db:migrate` (Make changes to database - run migration files)
+- 
